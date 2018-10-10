@@ -2,7 +2,7 @@ create database inventiolite;
 use inventiolite;
 set sql_mode='';
 
-create table user(
+CREATE TABLE `users` (
 	id int not null auto_increment primary key,
 	name varchar(50),
 	lastname varchar(50),
